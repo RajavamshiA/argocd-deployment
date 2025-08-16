@@ -6,7 +6,7 @@ metadata:
   namespace: argocd  # ArgoCD's namespace
   # dependency, lowest priorty will be created first
   annotations:
-    argocd.argoproj.io/sync-wave: "2" # namespace will be created third
+    argocd.argoproj.io/sync-wave: "0" # namespace will be created third
 spec:
   project: default
   source:
