@@ -4,4 +4,4 @@ metadata:
   name: local-dev
 provisioner: k8s.io/minikube-hostpath
 reclaimPolicy: Retain
-volumeBindingMode: WaitForFirstConsumer
+volumeBindingMode: Immediate
