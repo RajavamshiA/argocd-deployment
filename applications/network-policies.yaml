@@ -5,7 +5,7 @@ metadata:
   name: network-policies
   namespace: argocd  # ArgoCD's namespace
   annotations:
-    argocd.argoproj.io/sync-wave: "1"
+    argocd.argoproj.io/sync-wave: "1" #network policy will be created second according to priority
 spec:
   project: default
   source:
