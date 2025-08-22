@@ -25,4 +25,4 @@ spec:
       - ServerSideApply=true
       - PruneLast=true
 
-      #This is app for applications to control from one place, just by ruuning this, we can easily deploy the applications(resources inside applications).
+      #This is app for applications to control from one place, just by ruuning this, we can easily deploy the applications which contains resources.
