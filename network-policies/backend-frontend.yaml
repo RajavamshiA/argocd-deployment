@@ -1,4 +1,4 @@
-#to establish connection bt frontend and backend pods
+#To establish connection bt frontend and backend pods
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
