@@ -3,6 +3,5 @@ kind: StorageClass
 metadata:
   name: standard
 # provisioner: k8s.io/minikube-hostpath -
-#->changing provisioner to default for minikube
 reclaimPolicy: Delete
 volumeBindingMode: Immediate
